@@ -9,6 +9,3 @@
 ##### Storybook will create a static web application at the path you specify. This can be served by any web server. Try it out locally by running:
 
 ### `npx http-server ./path/to/build`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
