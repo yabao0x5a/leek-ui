@@ -1,5 +1,7 @@
 [Leek UI](https://leek-ui.com/).
 
+[![Build Status](https://travis-ci.com/yabao1991/leek-ui.svg?branch=master)](https://travis-ci.com/yabao1991/leek-ui)
+
 ### In the project directory, you can run:
 
 ##### First, we’ll need to build Storybook as a static web application using build-storybook, a command that’s installed by default. 
