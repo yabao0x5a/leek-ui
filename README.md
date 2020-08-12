@@ -2,7 +2,13 @@
 
 ### In the project directory, you can run:
 
-### `yarn start`
+##### First, we’ll need to build Storybook as a static web application using build-storybook, a command that’s installed by default.
+
+### `yarn build-storybook -o ./path/to/build`
+
+##### Storybook will create a static web application at the path you specify. This can be served by any web server. Try it out locally by running:
+
+### `npx http-server ./path/to/build`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
