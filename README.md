@@ -8,4 +8,4 @@
 
 ##### Storybook will create a static web application at the path you specify. This can be served by any web server. Try it out locally by running:
 
-### `npx http-server ./path/to/build`
+### `npx http-server ./path/to/build` 
