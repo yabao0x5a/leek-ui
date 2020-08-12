@@ -2,7 +2,7 @@
 
 ### In the project directory, you can run:
 
-##### First, we’ll need to build Storybook as a static web application using build-storybook, a command that’s installed by default.
+##### First, we’ll need to build Storybook as a static web application using build-storybook, a command that’s installed by default. 
 
 ### `yarn build-storybook -o ./path/to/build`
 
