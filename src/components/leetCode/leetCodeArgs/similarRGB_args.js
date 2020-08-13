@@ -66,4 +66,6 @@ export const similarRGB_args = {
     return res;
   }`,
   ],
+  timeComplexity: [``, ``],
+  spaceComplexity: [``, ``],
 };

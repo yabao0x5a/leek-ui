@@ -36,4 +36,6 @@ export const validWordSquare_args = {
       return validWordSquare(words);
     };`,
   ],
+  timeComplexity: [``, ``],
+  spaceComplexity: [``, ``],
 };

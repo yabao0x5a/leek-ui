@@ -36,4 +36,6 @@ export const isToeplitzMatrix_args = {
     };`,
     ``,
   ],
+  timeComplexity: [``, ``],
+  spaceComplexity: [``, ``],
 };

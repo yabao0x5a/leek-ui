@@ -11,6 +11,8 @@ export const LeetCode = ({
   referenceLinkArr,
   levelArr,
   companyArr,
+  timeComplexity,
+  spaceComplexity,
 }) => {
   return (
     <article>
@@ -19,32 +21,32 @@ export const LeetCode = ({
         <h2>{titleString}</h2>
         <p></p>
         <>
-        {descriptionStringArr.map((item, index) => {
-          return <p key={index}>{item}</p>
-        })}
+          {descriptionStringArr.map((item, index) => {
+            return <p key={index}>{item}</p>;
+          })}
         </>
         <h3>Reference</h3>
-        <ul>
+        <>
           {referenceLinkArr.map((item, index) => {
             return (
-              <li key={index}>
-                <a href={item} target="_blank" rel={item}>
-                  <strong>{item}</strong>
-                </a>
-              </li>
+              <a key={index} href={item} target="_blank" rel={item}>
+                <span className="tip">
+                  <strong>{index === 0 ? "LintCode" : "LeetCode"}</strong>
+                </span>
+              </a>
             );
           })}
-        </ul>
+        </>
         <div className="tip-wrapper">
-        {codeStringArr.map((item, index) => {
+          {codeStringArr.map((item, index) => {
             return (
               <div key={index}>
                 <h3>Solution {index + 1}</h3>
                 <SyntaxHighlighter language="javascript" style={docco}>
-                {item}
+                  {item}
                 </SyntaxHighlighter>
               </div>
-            )
+            );
           })}
         </div>
         <div className="tip-wrapper">
@@ -78,6 +80,43 @@ export const LeetCode = ({
                   disabled
                 >
                   {item}
+                </button>
+              );
+            })}
+          </>
+        </div>
+
+        <div className="tip-wrapper">
+          <span className="tip">Time Complexity</span>
+          <>
+            {timeComplexity.map((item, index) => {
+              return (
+                <button
+                  key={index}
+                  type="button"
+                  className={["storybook-button"]}
+                  style={{ backgroundColor: "#f0f0f0", color: "#66bf3c" }}
+                  disabled
+                >
+                  {item || "null"}
+                </button>
+              );
+            })}
+          </>
+        </div>
+        <div className="tip-wrapper">
+          <span className="tip">Space Complexity</span>
+          <>
+            {spaceComplexity.map((item, index) => {
+              return (
+                <button
+                  key={index}
+                  type="button"
+                  className={["storybook-button"]}
+                  style={{ backgroundColor: "#f0f0f0", color: "#66bf3c" }}
+                  disabled
+                >
+                  {item || "null"}
                 </button>
               );
             })}

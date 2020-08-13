@@ -8,7 +8,9 @@ export const sample_args = {
   titleString: ``,
   descriptionStringArr: [``, ``],
   referenceLinkArr: ["", ""],
-  levelArr: [``],
-  companyArr: ["", ""],
+  levelArr: [`Easy`],
+  companyArr: ["Google"],
   codeStringArr: [``, ``],
+  timeComplexity: [``],
+  spaceComplexity: [``],
 };

@@ -41,4 +41,6 @@ export const generatePossibleNextMoves_args = {
     };
   `,
   ],
+  timeComplexity: [``, ``],
+  spaceComplexity: [``, ``],
 };

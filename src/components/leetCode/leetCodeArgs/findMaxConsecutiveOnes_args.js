@@ -1,14 +1,14 @@
 /*
- * @Author: Lin Zhang 
- * @Date: yyyy-08-We 09:08:28 
- * @Last Modified by:   Lin Zhang 
- * @Last Modified time: yyyy-08-We 09:08:28 
+ * @Author: Lin Zhang
+ * @Date: yyyy-08-We 09:08:28
+ * @Last Modified by:   Lin Zhang
+ * @Last Modified time: yyyy-08-We 09:08:28
  */
 export const findMaxConsecutiveOnes_args = {
   titleString: `findMaxConsecutiveOnes`,
   descriptionStringArr: [
     `1212. Max Consecutive Ones Given a binary array, find the maximum number of consecutive 1s in this array.`,
-    `给定一个二进制数组， 计算其中最大连续1的个数。`
+    `给定一个二进制数组， 计算其中最大连续1的个数。`,
   ],
   referenceLinkArr: [
     "https://www.lintcode.com/problem/max-consecutive-ones/description?_from=ladder&&fromId=18",
@@ -17,7 +17,7 @@ export const findMaxConsecutiveOnes_args = {
   levelArr: [`Easy`],
   companyArr: ["Google", "Amazon"],
   codeStringArr: [
-      `
+    `
         /**
          * @param {number[]} nums
          * @return {number}
@@ -36,7 +36,7 @@ export const findMaxConsecutiveOnes_args = {
             return Math.max(...dp)
         };
       `,
-      `
+    `
         /**
          * @param {number[]} nums
          * @return {number}
@@ -56,6 +56,8 @@ export const findMaxConsecutiveOnes_args = {
             
             return max_length
         };
-      `
-  ]
+      `,
+  ],
+  timeComplexity: [``, ``],
+  spaceComplexity: [``, ``],
 };
