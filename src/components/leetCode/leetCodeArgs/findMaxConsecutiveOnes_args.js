@@ -1,3 +1,9 @@
+/*
+ * @Author: Lin Zhang 
+ * @Date: yyyy-08-We 09:08:28 
+ * @Last Modified by:   Lin Zhang 
+ * @Last Modified time: yyyy-08-We 09:08:28 
+ */
 export const findMaxConsecutiveOnes_args = {
   titleString: `findMaxConsecutiveOnes`,
   descriptionStringArr: [
